@@ -37,7 +37,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=TU_PROJECT_KEY
+            -Dsonar.projectKey=sebastianforero1_inicial_defectuoso
             -Dsonar.organization=sebastianforero1
             -Dsonar.python.version=3.11
             -Dsonar.sources=src
